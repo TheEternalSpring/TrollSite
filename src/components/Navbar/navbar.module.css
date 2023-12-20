@@ -1,0 +1,14 @@
+.container{
+    border-style: outset;
+    background-color: gold;
+    border-color: wheat;
+    height: 50px;
+    text-align: center;
+}
+
+.pages{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
