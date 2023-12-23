@@ -3,8 +3,11 @@
 }
 
 .blogpost{
-    font-size: large;
+    font-size: larger;
     font-family:cursive;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
 
 }
 
@@ -15,5 +18,8 @@
 }
 
 .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }

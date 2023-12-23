@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    font-size: larger;
+}
+
+.graff{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.foto{}
+
+.contblog{}
+
+.link{
+    align-items: center;
+    text-align: center;
+    border-style: outset;
+    background-color: red;
+    color: black;
+    width: 100px;
+    margin: auto;
+}

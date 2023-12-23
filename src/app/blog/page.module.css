@@ -1,0 +1,22 @@
+.title{}
+
+.goalist{
+    text-align: left;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primarycontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.foto{}
+
+.text{
+    font-size: large;
+    text-align: center;
+    padding-left: 234px;
+    padding-right: 234px;
+}
