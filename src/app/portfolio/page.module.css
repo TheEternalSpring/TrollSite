@@ -1,0 +1,33 @@
+.foto1{
+    border-color: black;
+    border-style:groove;
+}
+
+.foto{
+    border-color: black;
+    border-style:groove;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.maintitle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.space{
+    height: 100px;
+}
+
+.collage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
