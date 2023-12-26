@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
 
-function page() {
+function Bleg() {
   return (
     <div>
 
@@ -41,4 +41,4 @@ function page() {
   )
 }
 
-export default page
+export default Bleg

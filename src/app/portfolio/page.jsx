@@ -3,7 +3,7 @@ import styles from "./page.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
 
-function page() {
+function Pofolo() {
   return (
     <div>
       <h2 className={styles.maintitle}>Our Works</h2>
@@ -13,21 +13,21 @@ function page() {
       <div className={styles.collage}>
 
         <div className={styles.foto}>
-          <Link href={"/"}>
+          <Link href={"/portfolio/people"}>
           <h3 className={styles.title}>People</h3>
           <Image className={styles.foto1} src={"/trollman.gif"} width={300} height={500}/>
           </Link>
         </div>
 
         <div className={styles.foto}>
-          <Link href={"/"}>
+          <Link href={"/portfolio/events"}>
           <h3 className={styles.title}>Events</h3>
           <Image className={styles.foto1} src={"/gagnet.gif"} width={300} height={500}/>
           </Link>
         </div>
 
         <div className={styles.foto}>
-          <Link href={"/"}>
+          <Link href={"/portfolio/photos"}>
           <h3 className={styles.title}>Photos</h3>
           <Image className={styles.foto1} width={300} height={500} src={"/makeup.jpg"}/>
           </Link>
@@ -39,4 +39,4 @@ function page() {
   )
 }
 
-export default page
+export default Pofolo

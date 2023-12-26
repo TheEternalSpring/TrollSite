@@ -1,0 +1,23 @@
+.desc{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maintitle{
+    text-align: center;
+    font-size: large;
+}
+
+.styliser{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.infos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}

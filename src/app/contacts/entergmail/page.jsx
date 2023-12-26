@@ -3,10 +3,12 @@ import styles from "./page.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
 
-function page() {
+function Jimeil() {
   return (
-    <div>page</div>
+    <div>
+      
+    </div>
   )
 }
 
-export default page
+export default Jimeil

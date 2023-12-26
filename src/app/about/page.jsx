@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
 
-function page() {
+function Abawt() {
   return (
     <div className={styles.container}>
 
@@ -28,4 +28,4 @@ function page() {
   )
 }
 
-export default page
+export default Abawt

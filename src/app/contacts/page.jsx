@@ -3,7 +3,7 @@ import styles from "./page.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
 
-function page() {
+function Kotakt() {
   return (
     <div>
 
@@ -27,11 +27,11 @@ function page() {
       <br></br>
 
       <div className={styles.link}>
-        <Link href={"/"}><b>Contact Form</b></Link>
+        <Link href={"/contacts/entergmail"}><b>Contact Form</b></Link>
       </div>
 
     </div>
   )
 }
 
-export default page
+export default Kotakt
