@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./navbar.module.css"
 import Link from 'next/link';
+import Tolly from '../Trollton/Tolly';
 
 function Navbar() {
   const peijes = [
@@ -51,6 +52,7 @@ function Navbar() {
           <Link href={link.url}>{link.title}</Link>
           </b>
         ))}
+        <Tolly/>
       </div>
     </div>
   )
