@@ -3,3 +3,19 @@
     width: 50%;
     padding: 10px;
 }
+
+.explain{
+    height: 50px;
+    width: 200px;
+}
+
+.bawtan{
+    width: 75px;
+    height: 50px;
+    border-style: outset;
+    background-color: aqua;
+}
+
+.batam{
+    width: 90px;
+}
